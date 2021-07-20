@@ -1,0 +1,42 @@
+.face{
+    position: absolute;
+    top: 20vh;
+    width: 20vh;
+    height: 20vh;
+    left: 35vw;
+    opacity: 1;
+    transform-origin: 10vh 10vh 10vh;
+}
+#front{
+    
+    background-color: red;
+}
+#back{
+    
+    background-color: orangered;
+}
+#left{
+    
+    background-color:rgb(42, 255, 42);
+}
+#right{
+    
+    background-color: blue;
+}
+#top{
+    background-color: yellow;
+}
+#bottom{
+    background-color:violet;
+}
+#sliderContainer{
+    width: 15vw;
+    position: absolute;
+    top: 50vh;
+    left: 35vw;
+}
+.slider{
+    display: block;
+    width: 20vh;
+    margin: 2vw 0;
+}

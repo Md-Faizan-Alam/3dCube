@@ -1,9 +1,15 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
 .face{
     position: absolute;
     top: 20vh;
     width: 20vh;
     height: 20vh;
-    left: 35vw;
     opacity: 1;
     transform-origin: 10vh 10vh 10vh;
 }
@@ -33,7 +39,6 @@
     width: 15vw;
     position: absolute;
     top: 50vh;
-    left: 35vw;
 }
 .slider{
     display: block;

@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animation</title>
-    <link rel="stylesheet" href="Move.css">
+    <title>3D Rotation</title>
+    <link rel="stylesheet" href="3Dtest.css">
 </head>
 <body>
-    <div class="whole">
-        <div class="face" id="front"></div>
-        <div class="face" id="back"></div>
-        <div class="face" id="left"></div>
-        <div class="face" id="right"></div>
-        <div class="face" id="top"></div>
-        <div class="face" id="bottom"></div>
-        <div id="sliderContainer">
-            <input type="range" class="slider" min="-180" max="180" value="0">
-            <input type="range" class="slider" min="-180" max="180" value="0">
-            <input type="range" class="slider" min="-180" max="180" value="0">
-        </div>
+    <!-- Navigation Bar -->
+    <div id="navbar">3D Cube</div>
+    <!-- Faces of the cube -->
+    <div class="square" id="front"></div>
+    <div class="square" id="back"></div>
+    <div class="square" id="right"></div>
+    <div class="square" id="left"></div>
+    <div class="square" id="top"></div>
+    <div class="square" id="bottom"></div>
+    <!-- Sliders for controlling rotation -->
+    <div id="container">
+        <div class="slider">X-axis: <input type="range" class="angle" min="-180" max="180" value="0"></div>
+        <div class="slider">Y-axis: <input type="range" class="angle" min="-180" max="180" value="0"></div>
+        <div class="slider">Z-axis: <input type="range" class="angle" min="-180" max="180" value="0"></div>
     </div>
-    <script src="Move.js"></script>
+    <!-- Javascript -->
+    <script src="3Dtest.js"></script>
 </body>
-
 </html>

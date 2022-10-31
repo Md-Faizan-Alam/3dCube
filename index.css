@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.square {
+    display: block;
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 200px;
+    left: calc(50vw - 80px);
+    transform-origin: 80px 80px 80px;
+}
+#sliderContainer {
+    position: absolute;
+    width: fit-content;
+    top: 400px;
+    left: calc(50vw - 90px);
+}
+#navbar {
+    font-size: 50px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: mediumblue;
+    text-shadow: 2px 2px 0px black;
+    padding-left: 50px;
+    height: 80px;
+    background-color: dodgerblue;
+}
